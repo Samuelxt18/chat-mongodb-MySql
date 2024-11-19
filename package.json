@@ -1,0 +1,23 @@
+{
+  "name": "chat-mongodb-mysql",
+  "version": "1.0.0",
+  "description": "um web chat hibrido com mongodb e mysql",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "mongoDB",
+    "mySql"
+  ],
+  "author": "Samuel",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
